@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# DB or app secrets
+*.sqlite3
+instance/
+*.db
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Migrations (if using Alembic)
+migrations/
+alembic/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+# Twilio config or test secrets
+.twilio*
+
+# OS trash
+Thumbs.db
+ehthumbs.db
+Desktop.ini
