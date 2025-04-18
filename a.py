@@ -8,7 +8,7 @@ print(settings.DEV_DATABASE_URL) # Dev DB URL from .env
 
 
 
-# note registration fixed move to login
+
 
 
 
