@@ -4,5 +4,5 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-data = os.getenv("FACEBOOK_REDIRECT_URI")
+data = os.getenv("GEMINI_API_KEY")
 print(data)

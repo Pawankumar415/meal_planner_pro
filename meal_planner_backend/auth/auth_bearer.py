@@ -5,7 +5,7 @@ from db.session import get_db
 from sqlalchemy.orm import Session
 from typing import Optional
 from api.v1.models.user.user_auth import OTP, User
-from jwt import PyJWTError
+# from jwt import PyJWTError
 
 
 # user_ops = User()

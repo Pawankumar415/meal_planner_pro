@@ -20,6 +20,8 @@ class User(Base):
 
     social_auths = relationship("SocialAuth", back_populates="user")
     profile = relationship("Profile", back_populates="user", uselist=False)
+    interactions = relationship("UserInteraction", back_populates="user")
+    # user_interactions = relationship("UserInteraction", back_populates="user", uselist=False)
 
 class OTP(Base):
     __tablename__ = 'otp'
